@@ -6,7 +6,6 @@
 то вывести загаданное число.
 Решите через рекурсию. В задании нельзя применять циклы.
 """
-
 from random import randint
 
 def random_num(num_user, num_random=randint(0, 100), count_attempt=0):
